@@ -1,15 +1,19 @@
-const foo = function(){
-    return 'bar';
+function divide(a,b) {
+    return (a/b);
 }
-console.log(foo)
+console.log(divide(2000,100));
+
+
+const square = x => x * x;
+console.log(square(7));
+
+
 
 const add = (parameter1, parameter2) => parameter1 + parameter2;
 console.log(add (2,3));
 
-const nums = [1,2,3];
-const squares = nums.map(x => x ** 2);
-console.log(squares);
-console.log(nums);
+
+
 
 
 
